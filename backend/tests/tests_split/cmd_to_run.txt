@@ -1,0 +1,32 @@
+path
+PS C:\Users\abuta\Desktop\Emotion_\backend> 
+
+        run whole test at once 
+        python -m pytest -s
+
+
+        run induviually
+        python -m pytest tests/tests_split/test_unit_split.py
+
+        python -m pytest  tests/tests_split/test_integration_split.py
+
+        python -m pytest  tests/tests_split/test_regression_split.py
+
+        python -m pytest  tests/tests_split/test_performance_split.py
+
+        python -m pytest  tests/tests_split/test_security_split.py
+
+        python -m pytest tests/tests_split/test_system_split.py
+        python -m pytest -s tests/tests_split/test_system_split.py 
+                -s = show print output
+
+cmd for automated testing / run all  test of app.py
+    python -m pytest tests/tests_split/ -s
+
+
+    python -m pytest tests/tests_split/
+
+
+
+
+        

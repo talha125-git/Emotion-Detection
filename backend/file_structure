@@ -1,0 +1,29 @@
+Emotion_
+├── backend
+│   ├── __pycache__
+│   ├── .pytest_cache
+│   ├── dataset
+│   ├── models
+│   │   ├── test.csv
+│   │   ├── train.csv
+│   │   └── tweet_emotions.csv
+│   ├── app.py
+│   ├── check.py
+│   ├── preprocess.py
+│   ├── requirements.txt
+│   ├── run.txt
+│   ├── split_dataset.py
+│   └── train_model.py
+│
+├── frontend
+│   ├── dist
+│   ├── node_modules
+│   ├── public
+│   ├── src
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   └── vite.config.js

@@ -1,0 +1,10 @@
+✅ Steps to Update & Deploy Portfolio
+
+🔹 1. Make your changes in code
+		(Edit your files in VS Code)
+
+🔹 2. Run the following commands in terminal:
+		git add .
+		git commit -m "Improve Frontend design  "
+		git push origin main
+	

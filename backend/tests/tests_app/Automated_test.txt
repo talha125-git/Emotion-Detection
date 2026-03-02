@@ -1,0 +1,9 @@
+| Test Type        | File                      | Result   | Notes                                          |
+| ---------------- | ------------------------- | -------- | ---------------------------------------------- |
+| **Unit Testing** | `test_unit_app.py`        | ✅ Passed | Checks individual functions (like `/predict`)  |
+| **Integration**  | `test_integration_app.py` | ✅ Passed | API + preprocess + model work together         |
+| **Regression**   | `test_regression_app.py`  | ✅ Passed | Previous predictions maintained                |
+| **Performance**  | `test_performance_app.py` | ✅ Passed | API response under 1 sec (0.018s shown)        |
+| **Security**     | `test_security_app.py`    | ✅ Passed | Handles invalid, empty, or large inputs safely |
+| **System**       | `test_system_app.py`      | ✅ Passed | End-to-end workflow verified                   |
+| **Total Tests**  | 8                         | ✅ Passed | All backend functionalities verified           |

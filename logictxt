@@ -1,0 +1,13 @@
+tweet_emotions.csv
+        ↓
+split_dataset.py
+        ↓
+train.csv / test.csv
+        ↓
+train_model.py
+        ↓
+emotion_model.pkl + vectorizer.pkl
+        ↓
+FastAPI (app.py)
+        ↓
+Frontend (React / HTML)
