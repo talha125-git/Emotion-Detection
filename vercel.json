@@ -3,10 +3,7 @@
   "outputDirectory": "frontend/dist",
   "functions": {
     "api/index.py": {
-      "includeFiles": [
-        "backend/models/emotion_model.pkl",
-        "backend/models/vectorizer.pkl"
-      ],
+      "includeFiles": "backend/models/**/*.pkl",
       "maxDuration": 30
     }
   },
