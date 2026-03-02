@@ -20,7 +20,16 @@ export default function App() {
         body: JSON.stringify({ text }),
       });
       if (!res.ok) {
-        throw new Error(`Prediction failed: ${res.status}`);
+        let message = `Prediction failed: ${res.status}`;
+        try {
+          const payload = await res.json();
+          if (payload?.detail) {
+            message = `${message} - ${payload.detail}`;
+          }
+        } catch {
+          // Ignore JSON parse errors and keep generic status message.
+        }
+        throw new Error(message);
       }
       const data = await res.json();
       setResult(data);
