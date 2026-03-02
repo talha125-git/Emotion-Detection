@@ -1,10 +1,9 @@
 {
-  "buildCommand": "npm --prefix frontend run build",
-  "installCommand": "npm --prefix frontend install",
+  "buildCommand": "npm --prefix frontend install && npm --prefix frontend run build",
   "outputDirectory": "frontend/dist",
   "functions": {
     "api/index.py": {
-      "runtime": "python3.11"
+      "runtime": "python@3.11"
     }
   },
   "rewrites": [
