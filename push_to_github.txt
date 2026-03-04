@@ -5,6 +5,6 @@
 
 🔹 2. Run the following commands in terminal:
 		git add .
-		git commit -m "chnages index.py  "
+		git commit -m "changes index.py  again"
 		git push origin main
 	
