@@ -5,6 +5,6 @@
 
 🔹 2. Run the following commands in terminal:
 		git add .
-		git commit -m "Deployment  "
+		git commit -m "chnages in versal.json  "
 		git push origin main
 	

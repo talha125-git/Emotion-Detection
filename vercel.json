@@ -3,7 +3,6 @@
   "outputDirectory": "frontend/dist",
   "functions": {
     "api/index.py": {
-      "runtime": "vercel-python@0.9.1",
       "includeFiles": "backend/models/**/*.pkl",
       "maxDuration": 30
     }
