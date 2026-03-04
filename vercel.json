@@ -3,22 +3,9 @@
   "outputDirectory": "frontend/dist",
   "functions": {
     "api/index.py": {
+      "runtime": "vercel-python@0.9.1",
       "includeFiles": "backend/models/**/*.pkl",
       "maxDuration": 30
     }
-  },
-  "rewrites": [
-    {
-      "source": "/api",
-      "destination": "/api/index.py"
-    },
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/index.py"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  }
 }
